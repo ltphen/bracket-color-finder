@@ -1,0 +1,12 @@
+{
+    "name": "bracket-color-finder",
+    "title": "bracket-color-finder",
+    "description": "Helps you  to  find your css colors  in your sheet",
+    "homepage": "https://github.com/lewatt23/bracket-color-finder",
+    "version": "1.0.0",
+    "author": "Mfou'ou  medjo  stanly <lewatt23@gmail.com> and  tatkeu Lionel <Tatkeulionel@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "brackets": "<=1.12.0"
+    }
+}
