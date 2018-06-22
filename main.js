@@ -40,7 +40,7 @@ define(function (require, exports, module) {
                 this.activeToken = "";
                 this.cachedCssColours = [];
                 this.cachedLocalVariables = [];
-                this.tokenVariable = /[#][A-Za-z0-9]{3,6}/gi;
+                this.tokenVariable = /^((0x){0,1}|#{0,1})([0-9A-F]{8}|[0-9A-F]{6})$/gi;
                 this.currentTokenDefinition = /[#][A-Za-z0-9]+/gi;
                 this.newUserVarSession = false;
             }
